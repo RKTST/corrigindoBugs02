@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-/* OK */
 body {
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(
@@ -16,22 +14,18 @@ body {
   min-height: 100vh;
 }
 
-/* OK */
 .page {
   margin: 0 auto;
-  border: 1px solid red;
   width: 1280px;
   padding: 65px 153px 30px 119px;
 }
 
-/* OK */
 .page > img {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-/* OK */
 nav {
   margin-bottom: 59px;
   display: flex;
@@ -39,7 +33,6 @@ nav {
   align-items: center;
 }
 
-/* OK */
 ul {
   margin: 0;
   padding: 0;
@@ -48,9 +41,8 @@ ul {
   list-style: none;
 }
 
-/* OK */
 a {
-  color: #1F1534;
+  color: #1f1534;
   text-decoration: none;
 }
 
@@ -73,38 +65,38 @@ ul {
 main {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   gap: 102px;
 }
 
 h1 {
   font-size: 49px;
   line-height: 56px;
-  color: #1F1534;
-
+  color: #1f1534;
   font-weight: normal;
-
   width: 490px;
 }
 
 h1 span {
-  color: #89C5CC;
+  color: #89c5cc;
   font-weight: bold;
 }
 
 section p {
+  width: 439px;
   font-size: 14px;
   line-height: 28px;
-  color: #7D7987;
+  color: #7d7987;
 
   margin: 40px 0;
 }
 
 button {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 
-  background: #69B99D;
+  background: #69b99d;
   border: 4px;
   padding: 15px 32px;
 
@@ -117,12 +109,10 @@ button {
   cursor: pointer;
 }
 
-/* OK */
 button:hover {
-  background: #4EA788;
+  background: #4ea788;
 }
 
-/* OK */
 footer {
   font-size: 14px;
   line-height: 28px;
@@ -131,12 +121,10 @@ footer {
   margin-bottom: 30px;
 }
 
-/* OK */
 footer a {
   font-weight: bold;
 }
 
-/* OK */
 #balls {
   bottom: 0;
   right: 0;
