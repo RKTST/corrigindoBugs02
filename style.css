@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* OK */
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgb(227, 255, 248, 0) 82.08%,
+    rgb(227, 255, 248, 0.38) 100%
+  );
+  min-height: 100vh;
+}
+
+/* OK */
+.page {
+  margin: 0 auto;
+  border: 1px solid red;
+  width: 1280px;
+  padding: 65px 153px 30px 119px;
+}
+
+/* OK */
+.page > img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* OK */
+nav {
+  margin-bottom: 59px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* OK */
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+/* OK */
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 102px;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+
+  font-weight: normal;
+
+  width: 490px;
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+
+  margin: 40px 0;
+}
+
+button {
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+
+  background: #69B99D;
+  border: 4px;
+  padding: 15px 32px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+/* OK */
+button:hover {
+  background: #4EA788;
+}
+
+/* OK */
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 82.36px;
+  margin-bottom: 30px;
+}
+
+/* OK */
+footer a {
+  font-weight: bold;
+}
+
+/* OK */
+#balls {
+  bottom: 0;
+  right: 0;
+}
